@@ -1,6 +1,6 @@
 @media (max-width: 1024px) {
   /* общая часть */
-  div.wraper_Form {
+  div.wraper_Form.Form-off {
     left: 68px;
   }
   .shadow-on {

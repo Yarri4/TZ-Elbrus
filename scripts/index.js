@@ -7,6 +7,7 @@ const BtnForForm = document.querySelector(".button_application");
 const Form = document.querySelector(".Form-off");
 const MissClickCloseForm = document.querySelector(".shadow-on_for_Form");
 const ignore = document.querySelector(".button_application");
+const inputPhone = document.querySelector(".Phone");
 
 menuBtn.addEventListener("click", function () {
   menuBtn.classList.toggle("active");

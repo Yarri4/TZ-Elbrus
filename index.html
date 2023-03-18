@@ -48,12 +48,23 @@
         </div>
         <div class="wraper-Form">
           <form action="#" method="post" class="Form_Open">
-            <input id="name" placeholder="Ваше имя" />
-            <input id="telephone" placeholder="+7 (xxx) xxx-xxxx" />
             <input
-              class="Form_Open__Button"
+              data-rule="name"
+              class="Filed Name"
+              id="name"
+              placeholder="Ваше имя"
+            />
+            <input
+              data-rule="phone"
+              class="Filed Phone"
+              id="telephone"
+              placeholder="+7 (xxx) xxx-xxxx"
+            />
+            <input
+              class="Form_Open__Button Form_Open__Button-disabled"
               type="submit"
               value="Оставить заявку"
+              disabled
             />
           </form>
         </div>

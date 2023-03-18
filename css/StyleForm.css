@@ -1,10 +1,18 @@
-.Form_Open__Button-disabled {
+.Form_Open__Button.Form_Open__Button-disabled {
   width: 350px;
   height: 50px;
   border: 1px solid #b0b0b0;
   border-radius: 6px;
+  background: linear-gradient(135deg, #b9c5bb 0%, #5d615e 100%);
 }
-
+.Filed {
+}
+.valid {
+  border-color: green;
+}
+.error {
+  border-color: red;
+}
 .Form-off {
   display: none;
 }
