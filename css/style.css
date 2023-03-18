@@ -1,0 +1,570 @@
+/* общая часть */
+.shadow-on_for_Form {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000e00;
+  opacity: 0.4;
+  z-index: 300;
+}
+.button-hover:hover {
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #0dfc05;
+}
+.button-active:active {
+  border: #000e00 solid 2px;
+  border-style: inset;
+  box-shadow: inset 1px 1px #000e00;
+}
+.Burger {
+  display: none;
+}
+.off_scroll {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  position: fixed;
+}
+.menu-btn {
+  display: none;
+}
+.TextFor36r-on {
+  display: none;
+}
+.number-360rOnly {
+  display: none;
+}
+header {
+  width: 1920px;
+}
+main {
+  width: 1920px;
+}
+footer {
+  width: 1920px;
+}
+.wraper {
+  overflow: hidden;
+  width: 100%;
+}
+.Map-Adaptiv {
+  display: none;
+}
+.CorpIconLists li {
+  margin-bottom: 20px;
+  list-style-image: url("../src/images/favicons/ForLists.png");
+}
+/* общая часть */
+
+/* Верхняя часть */
+.header {
+  padding: 10px 60px;
+  width: 1410px;
+  height: 70px;
+  left: 255px;
+  top: 15px;
+  position: fixed;
+  z-index: 10;
+  background: #ffffff;
+  border-radius: 8px;
+}
+.icon {
+  display: flex;
+  align-items: center;
+}
+.icon > p {
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #000e00;
+}
+.header__navigation {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 178px;
+}
+.menu-btn {
+  display: none;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+}
+.menu__links {
+  display: flex;
+  flex-direction: row;
+}
+.menu__links-midle {
+  margin: 0 100px 0 100px;
+}
+.fonTop {
+  position: relative;
+  z-index: 1;
+  width: 1920px;
+  height: 780px;
+  background: linear-gradient(
+      0deg,
+      rgba(103, 228, 108, 0.6),
+      rgba(103, 228, 108, 0.6)
+    ),
+    url(.jpg);
+}
+.fonTop__title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  z-index: 4;
+  position: absolute;
+  width: 660px;
+  height: 410px;
+  left: 315px;
+  top: 180px;
+  gap: 20px;
+}
+.number {
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #000e00;
+}
+.menu__links > li {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  color: #000e00;
+}
+li {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 160%;
+  color: #000e00;
+}
+h1 {
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+h2 {
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: #000e00;
+}
+p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 160%;
+}
+.fonTop__title p {
+  width: 614px;
+}
+.fonTop__title p:nth-child(3) {
+  margin-top: 20px;
+}
+.button_application {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 2px 12px;
+  gap: 10px;
+  width: 245px;
+  height: 54px;
+  border-radius: 8px;
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+.Green {
+  background: linear-gradient(135deg, #00860d 0%, #00c142 100%);
+}
+.fonTop__cubRotate {
+  position: absolute;
+  z-index: 2;
+  width: 1158px;
+  height: 1464px;
+  left: -194px;
+  top: -366px;
+  background: #ffffff;
+  transform: rotate(-50.89deg);
+}
+.fonTop__Home {
+  position: absolute;
+  z-index: 3;
+  width: 900px;
+  height: 632px;
+  left: 900px;
+  top: 79px;
+}
+.foneTop_Family {
+  position: absolute;
+  z-index: 4;
+  width: 532px;
+  height: 403px;
+  left: 1105px;
+  top: 297px;
+}
+/* Верхняя часть  */
+
+/* Центральный блок */
+.WrapperAbsolutPositionBlock {
+  width: 100%;
+  height: 780px;
+}
+.midleBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 80px 50px 0px;
+  position: absolute;
+  left: 265px;
+  top: 650px;
+  width: 1390px;
+  height: 891px;
+  background: #ffffff;
+  border-radius: 8px;
+  z-index: 5;
+}
+.part_One {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+}
+.part_One-img {
+  margin: 0;
+  border-radius: 8px;
+  width: 600px;
+  height: 512px;
+}
+.GreenText {
+  background: linear-gradient(135deg, #00860d 0%, #00c142 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  text-transform: uppercase;
+  margin-top: 34px;
+  margin-left: 75px;
+}
+.part_One-Column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+}
+.part_One-Row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px 0px 0px 60px;
+  gap: 30px;
+}
+.CorpIconLists-padding75 {
+  padding: 0px 0px 0px 75px;
+}
+.CorpIconLists-padding75 li:last-child {
+  margin: 0;
+}
+.midleBlock_h2-border {
+  align-items: center;
+  display: flex;
+  width: 690px;
+  overflow: hidden;
+  margin-left: 0px;
+  gap: 15px;
+}
+.midleBlock_h2-border::before,
+.midleBlock_h2-border::after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  width: 100%;
+  height: 2px;
+  background: #00860d;
+  border: solid #fff;
+  border-width: 0 10px;
+}
+.midleBlock_h2-border::before {
+  margin-left: -91%;
+}
+.midleBlock_h2-border::after {
+  margin-right: -100%;
+}
+.part_two-img {
+  width: 630px;
+  height: 269px;
+  background-image: url("../src/images/MidleBlock/1920/HomeBottom.png");
+  border-radius: 8px;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+.part_two-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+  width: 600px;
+  height: 229px;
+  margin-top: 50px;
+}
+/* Центральный блок */
+/* Центральный блок Второй абзац */
+.BotomMidleBlock {
+  display: flex;
+  width: 1290px;
+  height: 610px;
+  margin: 80px 0 0 315px;
+}
+h2.border_h2-StileNew {
+  width: 1290px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 15px;
+}
+.border_h2-StileNew::before {
+  margin-left: -81%;
+}
+.img-plan {
+  width: 520px;
+  height: 530px;
+  margin: 0;
+  background-image: url("../src/images/BottomMidleBlock/1920/Plan.png");
+}
+.img-insaide {
+  width: 300px;
+  height: 250px;
+  margin: 0;
+  background-image: url("../src/images/BottomMidleBlock/1920/Insaide.png");
+}
+.img-home {
+  width: 300px;
+  height: 250px;
+  margin: 0;
+  background-image: url("../src/images/BottomMidleBlock/1920/Home.png");
+}
+.img-homeFront {
+  width: 410px;
+  height: 320px;
+  margin: 0;
+  background-image: url("../src/images/BottomMidleBlock/1920/HomeFront.png");
+}
+.TextBotomBlock {
+  width: 380px;
+  height: 162px;
+}
+/* Центральный блок Второй абзац */
+
+/* Слайдер */
+.slayder {
+  height: 624px;
+  padding: 80px 265px;
+  background: #000e00;
+  margin-top: 90px;
+  align-items: center;
+}
+.flex_Slyder {
+  align-items: center;
+}
+.Text-White {
+  color: #ffffff;
+}
+h2.Text-White::before {
+  margin-left: -74%;
+}
+.img-sly1 {
+  width: 410px;
+  height: 300px;
+  margin: 0;
+  background-image: url("../src/images/Slyder/1920/sly1.png");
+}
+.img-sly2 {
+  width: 410px;
+  height: 300px;
+  margin: 0;
+  background-image: url("../src/images/Slyder/1920/sly2.png");
+}
+.img-sly3 {
+  width: 410px;
+  height: 300px;
+  margin: 0;
+  background-image: url("../src/images/Slyder/1920/sly3.png");
+}
+.part_One-row.padding-none {
+  padding: 0;
+}
+.arrow-left {
+  width: 20px;
+  height: 40px;
+  background-image: url("../src/images/favicons/ArrowLeft.png");
+}
+.arrow-right {
+  width: 20px;
+  height: 40px;
+  background-image: url("../src/images/favicons/ArrowRight.png");
+}
+.button_morePhoto {
+  width: 204px;
+  height: 54px;
+  text-transform: uppercase;
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  background: -webkit-linear-gradient(135deg, #00860d 0%, #00c142 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 2px solid #00c142;
+  border-radius: 8px;
+}
+/* Слайдер */
+/* Оффер */
+.Offer {
+  overflow: hidden;
+  margin: 90px 315px 80px 315px;
+  gap: 0;
+  padding: 0;
+}
+.img-keys {
+  width: 660px;
+  height: 428px;
+  border-radius: 0px 8px 8px 0px;
+  background-image: url("../src/images/Offer/1920/Keys.png");
+  margin: 0;
+}
+.Offer-text {
+  padding: 80px 60px;
+  border-radius: 8px 0px 0px 8px;
+  width: 630px;
+  height: 428px;
+  z-index: 2;
+}
+.buton-White {
+  margin-top: 14px;
+  width: 245px;
+  height: 54px;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+.butom-White-Color {
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, #00860d 0%, #00c142 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.AbsolutPositionBlock {
+  position: absolute;
+  width: 770px;
+  height: 428px;
+  background: linear-gradient(135deg, #00860d 0%, #00c142 100%);
+  left: 315px;
+  top: 2274px;
+  z-index: 1;
+  clip-path: polygon(0 0, 80% 0, 99% 84%, 82% 100%, 0 100%);
+}
+.BigText {
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+/* Оффер */
+/* Footer */
+.Contacts {
+  margin: 80px 315px 19px 315px;
+  padding: 0;
+  gap: 0;
+}
+.Footer__h2 {
+  width: 550px;
+}
+.img-map {
+  width: 740px;
+  height: 469px;
+  border-radius: 8px;
+  margin: 0;
+  background-image: url("../src/images/Footer/1920/Map.png");
+}
+.Footer_bigPhoneText {
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 140%;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, #00860d 0%, #00c142 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.Footer-gap {
+  gap: 20px;
+}
+.Footer__Menu > ul > li {
+  margin: 0 0 20px 0;
+}
+.Footer_CorpInfo {
+  gap: 11px;
+}
+.Footer_CorpInfo > p {
+  font-size: 15px;
+}
+.Footer__Corp {
+  margin-top: 60px;
+  gap: 39px;
+  padding: 0;
+}
+.part_One-row.Footer__Corp.Mobile-one.Desc-none {
+  display: none;
+}
+/* Footer */

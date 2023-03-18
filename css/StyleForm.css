@@ -1,0 +1,79 @@
+.Form_Open__Button-disabled {
+  width: 350px;
+  height: 50px;
+  border: 1px solid #b0b0b0;
+  border-radius: 6px;
+}
+
+.Form-off {
+  display: none;
+}
+
+.wraper_Form.Form-off {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 894px;
+  height: 584px;
+  background: #ffffff;
+  border-radius: 8px;
+  z-index: 300;
+  left: 513px;
+  top: 98px;
+}
+.FormText {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  align-items: center;
+  margin: 70px 70px;
+  border-radius: 8px;
+}
+.FormText_h2 {
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 140%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.FormText_p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 160%;
+  text-align: center;
+  width: 509px;
+}
+.wraper-Form {
+  display: block;
+  align-self: center;
+}
+
+.Form_Open {
+  width: 350px;
+  height: 214px;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.Form_Open > input {
+  width: 350px;
+  height: 50px;
+  border: 1px solid #b0b0b0;
+  border-radius: 6px;
+}
+.Form_Open__Button {
+  background: linear-gradient(135deg, #00860d 0%, #00c142 100%);
+  border-radius: 8px;
+  font-family: "Russo One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #ffffff;
+  text-transform: uppercase;
+}
