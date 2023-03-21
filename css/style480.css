@@ -1,6 +1,6 @@
 @media (max-width: 480px) {
   /* общая часть */
-  div.wraper_Form {
+  div.wraper_Form.Form-off {
     width: 480px;
     height: 700px;
     left: 0;
